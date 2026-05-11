@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Chatbot & Manager Dashboard · Dmytro Chyzh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <style>
+    body { font-family: 'Inter', ui-sans-serif, system-ui, sans-serif; }
+    @keyframes fadeSlideIn {
+      from { opacity: 0; transform: translateY(32px); filter: blur(8px); }
+      to { opacity: 1; transform: translateY(0); filter: blur(0); }
+    }
+  </style>
+</head>
+<body class="antialiased text-slate-100 bg-slate-950 min-h-screen" style="font-family: Inter, ui-sans-serif, system-ui, sans-serif;">
+
+  <!-- Background -->
+  <div class="aura-background-component fixed top-0 w-full h-screen -z-10">
+    <div data-us-project="OMO2zbNkRGUqAVYhB4jD" class="absolute top-0 left-0 -z-10 w-full h-full"></div>
+    <script type="text/javascript">
+      !function () {
+        if (!window.UnicornStudio) {
+          window.UnicornStudio = { isInitialized: !1 };
+          var i = document.createElement("script");
+          i.src = "https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.29/dist/unicornStudio.umd.js";
+          i.onload = function () {
+            window.UnicornStudio.isInitialized || (UnicornStudio.init(), window.UnicornStudio.isInitialized = !0);
+          };
+          (document.head || document.body).appendChild(i);
+        }
+      }();
+    </script>
+  </div>
+
+  <div class="relative isolate overflow-hidden">
+    <header class="max-w-7xl mx-auto pt-6 px-6 relative">
+      <div class="flex items-center justify-between">
+        <a href="index-buildai-style.html" class="text-xl font-semibold text-white tracking-tight">Dmytro Chyzh</a>
+        <nav class="hidden md:flex items-center gap-8 text-sm text-slate-200/80 absolute left-1/2 -translate-x-1/2">
+          <a href="index-buildai-style.html" class="hover:text-white transition">Overview</a>
+          <a href="case-studies.html" class="hover:text-white transition">Case Studies</a>
+        </nav>
+        <a href="mailto:dima.chyzuk@gmail.com" class="hidden md:inline-flex items-center gap-2 px-5 py-2 text-sm font-medium text-slate-100 bg-white/5 hover:bg-white/10 ring-1 ring-teal-400/40 hover:ring-teal-400/60 rounded-full transition shadow-[0_0_20px_rgba(45,212,191,0.35)]">
+          Get in Contact
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </a>
+        <a href="mailto:dima.chyzuk@gmail.com" class="md:hidden inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-slate-100 bg-white/5 hover:bg-white/10 ring-1 ring-teal-400/40 hover:ring-teal-400/60 rounded-full transition shadow-[0_0_20px_rgba(45,212,191,0.35)]">
+          Get in Contact
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </a>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="max-w-7xl mx-auto pt-24 lg:pt-32 pb-16 px-6">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-7 opacity-0 blur-sm translate-y-8" style="animation: fadeSlideIn 0.8s ease-out 0.2s forwards;">
+          <div class="inline-flex items-center gap-2 px-3 py-1 text-xs font-medium text-teal-300 bg-teal-400/10 ring-1 ring-teal-400/20 rounded-full mb-4">
+            <i data-lucide="building-2" class="w-3 h-3"></i>
+            Internal product project
+          </div>
+          <h1 class="text-4xl lg:text-5xl font-semibold text-white tracking-tight leading-tight mb-4">
+            AI Chatbot &amp; Manager Dashboard<br><span class="text-teal-400">for a company website</span>
+          </h1>
+          <p class="text-lg text-slate-300 leading-relaxed max-w-xl mb-6">
+            An AI chatbot that replaces the initial sales/briefing stage, plus a dashboard for managers to prepare them before client contact and improve lead quality.
+          </p>
+          <div class="flex flex-wrap gap-3 text-xs text-slate-300">
+            <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 ring-1 ring-white/10">
+              <i data-lucide="message-square" class="w-3 h-3"></i>
+              UI/UX · UX Logic
+            </span>
+            <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 ring-1 ring-white/10">
+              <i data-lucide="film" class="w-3 h-3"></i>
+              Animation
+            </span>
+            <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 ring-1 ring-white/10">
+              <i data-lucide="layout-dashboard" class="w-3 h-3"></i>
+              Vibe Coding · AI + Frontend
+            </span>
+          </div>
+        </div>
+        <div class="lg:col-span-5 opacity-0 blur-sm translate-x-8" style="animation: fadeSlideIn 0.8s ease-out 0.4s forwards;">
+          <div class="aspect-[4/3] rounded-2xl overflow-hidden bg-black/40 backdrop-blur-xl ring-1 ring-white/10 shadow-2xl flex items-center justify-center gap-4">
+            <i data-lucide="message-square" class="w-16 h-16 text-teal-400/40"></i>
+            <i data-lucide="layout-dashboard" class="w-16 h-16 text-teal-400/30"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+  </div>
+
+  <!-- Content -->
+  <main class="max-w-7xl mx-auto pt-16 pb-24 px-6 space-y-20">
+    <!-- Idea & Goal -->
+    <section class="grid lg:grid-cols-12 gap-12">
+      <div class="lg:col-span-7 space-y-6">
+        <h2 class="text-xl font-semibold text-white tracking-tight">Project idea and goal</h2>
+        <p class="text-slate-300 leading-relaxed">
+          The goal was to build an AI chatbot for the company website that not only answers standard questions, but <strong class="text-white">fully replaces the initial sales/briefing stage</strong>.
+        </p>
+        <ul class="space-y-2 text-slate-300">
+          <li class="flex gap-2"><span class="text-teal-400 mt-0.5">→</span> Prepare the manager <strong class="text-white">before</strong> the first contact with a client</li>
+          <li class="flex gap-2"><span class="text-teal-400 mt-0.5">→</span> Increase lead trust</li>
+          <li class="flex gap-2"><span class="text-teal-400 mt-0.5">→</span> Save time for both team and client</li>
+        </ul>
+      </div>
+      <div class="lg:col-span-5">
+        <div class="bg-black/40 backdrop-blur-xl ring-1 ring-white/10 rounded-2xl p-6 space-y-3">
+          <div class="flex items-center justify-between text-xs text-slate-400">
+            <span>Format</span>
+            <span class="text-slate-100">Internal product project</span>
+          </div>
+          <div class="flex items-center justify-between text-xs text-slate-400">
+            <span>Role</span>
+            <span class="text-slate-100">UI/UX Designer · UX Logic · Animation · Vibe Coding (AI + Frontend)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Part 1: AI Chatbot -->
+    <section class="space-y-8">
+      <div class="flex items-center gap-3">
+        <span class="flex items-center justify-center w-10 h-10 rounded-xl bg-teal-400/10 ring-1 ring-teal-400/20 text-teal-400">
+          <i data-lucide="message-square" class="w-5 h-5"></i>
+        </span>
+        <h2 class="text-2xl font-semibold text-white tracking-tight">Part #1: AI Chatbot for clients</h2>
+      </div>
+      <div class="grid lg:grid-cols-2 gap-10">
+        <div class="space-y-4">
+          <h3 class="text-lg font-medium text-white">Chatbot functionality</h3>
+          <ul class="space-y-2 text-sm text-slate-300">
+            <li class="flex gap-2"><span class="mt-1 w-1.5 h-1.5 rounded-full bg-teal-400 flex-shrink-0"></span>Communicates with clients in a natural, human style</li>
+            <li class="flex gap-2"><span class="mt-1 w-1.5 h-1.5 rounded-full bg-teal-400 flex-shrink-0"></span>Answers questions about the company, services, and processes</li>
+            <li class="flex gap-2"><span class="mt-1 w-1.5 h-1.5 rounded-full bg-teal-400 flex-shrink-0"></span>Clarifies project details: product type, goals, platform, budget, deadlines, functionality</li>
+            <li class="flex gap-2"><span class="mt-1 w-1.5 h-1.5 rounded-full bg-teal-400 flex-shrink-0"></span>Guides the client through a logical UX conversation instead of a dry form</li>
+            <li class="flex gap-2"><span class="mt-1 w-1.5 h-1.5 rounded-full bg-teal-400 flex-shrink-0"></span>Builds a preliminary estimate based on responses</li>
+          </ul>
+        </div>
+        <div class="space-y-4">
+          <h3 class="text-lg font-medium text-white">UX value</h3>
+          <p class="text-slate-300 text-sm">
+            Instead of "Leave a request - we will contact you," the client gets: <em>"I can talk right away, explain everything, and understand the cost"</em>. This increases trust, reduces cold leads, and makes the experience more comfortable.
+          </p>
+        </div>
+      </div>
+      <div class="bg-white/5 ring-1 ring-white/10 rounded-xl p-6">
+        <h4 class="text-sm font-medium text-teal-300 mb-2">My role</h4>
+        <ul class="flex flex-wrap gap-2 text-sm text-slate-300">
+          <li class="flex gap-2"><span class="text-teal-400">·</span> UX dialogue logic</li>
+          <li class="flex gap-2"><span class="text-teal-400">·</span> Chatbot interface</li>
+          <li class="flex gap-2"><span class="text-teal-400">·</span> Question-and-answer scenarios</li>
+          <li class="flex gap-2"><span class="text-teal-400">·</span> State animations (typing, transitions, responses)</li>
+          <li class="flex gap-2"><span class="text-teal-400">·</span> UX + AI logic</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Part 2: Manager Dashboard -->
+    <section class="space-y-8">
+      <div class="flex items-center gap-3">
+        <span class="flex items-center justify-center w-10 h-10 rounded-xl bg-teal-400/10 ring-1 ring-teal-400/20 text-teal-400">
+          <i data-lucide="layout-dashboard" class="w-5 h-5"></i>
+        </span>
+        <h2 class="text-2xl font-semibold text-white tracking-tight">Part #2: Manager Dashboard (Admin)</h2>
+      </div>
+      <div class="grid lg:grid-cols-2 gap-10">
+        <div class="space-y-4">
+          <h3 class="text-lg font-medium text-white">Dashboard functionality</h3>
+          <ul class="space-y-2 text-sm text-slate-300">
+            <li class="flex gap-2"><span class="mt-1 w-1.5 h-1.5 rounded-full bg-teal-400 flex-shrink-0"></span>Full conversation history with the client</li>
+            <li class="flex gap-2"><span class="mt-1 w-1.5 h-1.5 rounded-full bg-teal-400 flex-shrink-0"></span>Structured project brief: client goals, tasks, budget range, preliminary estimate</li>
+            <li class="flex gap-2"><span class="mt-1 w-1.5 h-1.5 rounded-full bg-teal-400 flex-shrink-0"></span>Ability to quickly understand context and immediately move to a meaningful conversation</li>
+          </ul>
+        </div>
+        <div class="space-y-4">
+          <h3 class="text-lg font-medium text-white">UX impact for business</h3>
+          <p class="text-slate-300 text-sm">
+            The manager does not start from zero, arrives prepared, asks more precise questions, and appears professional. This improves sales quality, lead conversion, and saves time for everyone involved.
+          </p>
+        </div>
+      </div>
+      <div class="bg-white/5 ring-1 ring-white/10 rounded-xl p-6">
+        <h4 class="text-sm font-medium text-teal-300 mb-2">My role</h4>
+        <ul class="flex flex-wrap gap-2 text-sm text-slate-300">
+          <li class="flex gap-2"><span class="text-teal-400">·</span> UX dashboard structure</li>
+          <li class="flex gap-2"><span class="text-teal-400">·</span> Screen design</li>
+          <li class="flex gap-2"><span class="text-teal-400">·</span> Information hierarchy</li>
+          <li class="flex gap-2"><span class="text-teal-400">·</span> Prepared for scaling (many managers, many leads)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Result -->
+    <section class="bg-teal-400/5 ring-1 ring-teal-400/20 rounded-2xl p-8 md:p-10 space-y-6">
+      <h2 class="text-xl font-semibold text-white tracking-tight flex items-center gap-2">
+        <i data-lucide="target" class="w-5 h-5 text-teal-400"></i>
+        Project result
+      </h2>
+      <p class="text-slate-300 leading-relaxed">
+        The project combined AI, UX, design, and business logic, making lead workflows smarter and more effective. For me, it was an especially valuable case: I worked from idea to UX implementation, combined design + AI + vibe coding, and created a solution that truly impacts business. It showed I can think not only as a designer, but as a product specialist.
+      </p>
+    </section>
+  </main>
+
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+  </div>
+
+  <footer class="max-w-7xl mx-auto pt-20 pb-12 px-6">
+    <div class="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-12"></div>
+    <div class="flex flex-wrap justify-center gap-8 md:gap-12 mb-12">
+      <a href="https://www.linkedin.com/in/dima-chyzh-0360aa24a/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-slate-300 hover:text-white transition text-sm">Linkedin <i data-lucide="external-link" class="w-3.5 h-3.5"></i></a>
+      <a href="https://www.instagram.com/dmytro.chyzh/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-slate-300 hover:text-white transition text-sm">Instagram <i data-lucide="external-link" class="w-3.5 h-3.5"></i></a>
+    </div>
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 text-sm text-slate-400">
+      <div class="space-y-1">
+        <a href="mailto:dima.chyzuk@gmail.com" class="block hover:text-white transition">dima.chyzuk@gmail.com</a>
+      </div>
+      <div class="space-y-1 md:text-right">
+        <span class="block">Lviv, Ukraine</span>
+        <span class="block">© 2026 Dmytro Chyzh Portfolio</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>lucide.createIcons();</script>
+</body>
+</html>
