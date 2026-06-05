@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Design for the Ukrainian railway application · Dmytro Chyzh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <style>
+    body { font-family: 'Inter', ui-sans-serif, system-ui, sans-serif; }
+    .shot-wrap { position: relative; }
+    .shot-fallback {
+      position: absolute; inset: 0; display: none; align-items: center; justify-content: center;
+      text-align: center; padding: 16px; color: #94a3b8; font-size: 12px;
+    }
+  </style>
+</head>
+<body class="antialiased text-slate-100 bg-slate-950 min-h-screen">
+  <div class="aura-background-component fixed top-0 w-full h-screen -z-10">
+    <div data-us-project="OMO2zbNkRGUqAVYhB4jD" class="absolute top-0 left-0 -z-10 w-full h-full"></div>
+    <script type="text/javascript">
+      !function () {
+        if (!window.UnicornStudio) {
+          window.UnicornStudio = { isInitialized: !1 };
+          var i = document.createElement("script");
+          i.src = "https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.29/dist/unicornStudio.umd.js";
+          i.onload = function () { window.UnicornStudio.isInitialized || (UnicornStudio.init(), window.UnicornStudio.isInitialized = !0); };
+          (document.head || document.body).appendChild(i);
+        }
+      }();
+    </script>
+  </div>
+
+  <header class="max-w-7xl mx-auto pt-6 px-6">
+    <div class="flex items-center justify-between">
+      <a href="index.html" class="text-xl font-semibold text-white tracking-tight">Dmytro Chyzh</a>
+      <nav class="hidden md:flex items-center gap-8 text-sm text-slate-200/80">
+        <a href="index.html" class="hover:text-white transition">Overview</a>
+        <a href="case-studies.html" class="hover:text-white transition">Case Studies</a>
+      </nav>
+      <a href="mailto:dima.chyzuk@gmail.com" class="hidden md:inline-flex items-center gap-2 px-5 py-2 text-sm font-medium text-slate-100 bg-white/5 hover:bg-white/10 ring-1 ring-teal-400/40 hover:ring-teal-400/60 rounded-full transition">
+        Get in Contact
+        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-6 pt-20 pb-24">
+    <div class="mb-10">
+      <div class="inline-flex items-center gap-2 px-3 py-1 text-xs font-medium text-teal-300 bg-teal-400/10 ring-1 ring-teal-400/20 rounded-full mb-4">
+        <i data-lucide="train-front" class="w-3 h-3"></i>
+        Case 2
+      </div>
+      <h1 class="text-3xl md:text-5xl font-semibold text-white tracking-tight leading-tight">Design for the Ukrainian railway application</h1>
+      <p class="mt-3 text-slate-400 text-sm">All provided screenshots are displayed below in one column.</p>
+    </div>
+
+    <section class="max-w-5xl space-y-10 md:space-y-12">
+      <!-- 1) First screenshot -->
+      <article class="shot-wrap bg-black/40 ring-1 ring-white/10 rounded-2xl overflow-hidden">
+        <img src="assets/Case2/1.png" alt="Case 2 screenshot 1" class="w-full h-auto" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="shot-fallback">assets/Case2/1.png</div>
+      </article>
+
+      <!-- 2) Text block based on reference -->
+      <article class="rounded-2xl bg-black/40 text-slate-200 p-12 ring-1 ring-white/10 backdrop-blur-xl">
+        <div class="grid md:grid-cols-12 gap-6 md:gap-8 items-start">
+          <h2 class="md:col-span-4 text-2xl md:text-3xl font-semibold leading-tight text-white">
+            Why Ukrainian<br>railway?
+          </h2>
+          <p class="md:col-span-8 text-base md:text-lg leading-relaxed text-slate-300">
+            While my aged parents were trying to buy a ticket through the Ukrainian Railways application,
+            since they did not trust third-party resources (they were afraid of fraud on their part) while
+            using the application, they had many difficulties at every step, and they asked me for help in
+            buying a ticket, and even I did not immediately understand how to buy that ticket. That’s why I
+            set myself the task of an internal project, a redesign of the Ukrainian railway app.
+          </p>
+        </div>
+      </article>
+
+      <!-- 3) Next screenshot -->
+      <article class="shot-wrap bg-black/40 ring-1 ring-white/10 rounded-2xl overflow-hidden">
+        <img src="assets/Case2/17.png" alt="Case 2 screenshot 17" class="w-full h-auto" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="shot-fallback">assets/Case2/17.png</div>
+      </article>
+
+      <!-- 4) My workflow text block -->
+      <article class="rounded-2xl bg-black/40 text-slate-200 p-12 ring-1 ring-white/10 backdrop-blur-xl">
+        <div class="grid md:grid-cols-12 gap-6 md:gap-8 items-start">
+          <h2 class="md:col-span-4 text-2xl md:text-3xl font-semibold leading-tight text-white">
+            My workflow
+          </h2>
+          <div class="md:col-span-8 text-base md:text-lg leading-relaxed text-slate-300 space-y-1">
+            <p>Discovery</p>
+            <p>Wireframes</p>
+            <p>User experience design</p>
+            <p>Design UI</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- 5) Next screenshot -->
+      <article class="shot-wrap bg-black/40 ring-1 ring-white/10 rounded-2xl overflow-hidden">
+        <img src="assets/Case2/19.png" alt="Case 2 screenshot 19" class="w-full h-auto" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="shot-fallback">assets/Case2/19.png</div>
+      </article>
+
+      <!-- 6) Discovery text block -->
+      <article class="rounded-2xl bg-black/40 text-slate-200 p-12 ring-1 ring-white/10 backdrop-blur-xl">
+        <div class="grid md:grid-cols-12 gap-6 md:gap-8 items-start">
+          <h2 class="md:col-span-4 text-2xl md:text-3xl font-semibold leading-tight text-white">
+            Discovery
+          </h2>
+          <p class="md:col-span-8 text-base md:text-lg leading-relaxed text-slate-300">
+            The discovery stage of the project began by exploring the functionality of the existing legacy system.
+            Further discovery meetings were conducted to reveal business requirements about the new capabilities of
+            the product. Based on these discoveries, the team defined the scope in the form of information architecture,
+            clarified types of users with their accesses, and produced user flows for main scenarios.
+          </p>
+        </div>
+      </article>
+
+      <!-- 7) Next screenshot -->
+      <article class="shot-wrap bg-black/40 ring-1 ring-white/10 rounded-2xl overflow-hidden">
+        <img src="assets/Case2/21.png" alt="Case 2 screenshot 21" class="w-full h-auto" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="shot-fallback">assets/Case2/21.png</div>
+      </article>
+
+      <!-- 8) Wireframe text block -->
+      <article class="rounded-2xl bg-black/40 text-slate-200 p-12 ring-1 ring-white/10 backdrop-blur-xl">
+        <div class="grid md:grid-cols-12 gap-6 md:gap-8 items-start">
+          <h2 class="md:col-span-4 text-2xl md:text-3xl font-semibold leading-tight text-white">
+            Wireframe
+          </h2>
+          <p class="md:col-span-8 text-base md:text-lg leading-relaxed text-slate-300">
+            The client is very important, the client will be followed by the client.
+            Company members are also interested in promoting the product.
+            The client is very important, the client will be followed by the client.
+            Company members are also interested in promoting the product.
+          </p>
+        </div>
+      </article>
+
+      <!-- 9) Next screenshot -->
+      <article class="shot-wrap bg-black/40 ring-1 ring-white/10 rounded-2xl overflow-hidden">
+        <img src="assets/Case2/23.png" alt="Case 2 screenshot 23" class="w-full h-auto" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="shot-fallback">assets/Case2/23.png</div>
+      </article>
+
+      <!-- 10) Search text block -->
+      <article class="rounded-2xl bg-black/40 text-slate-200 p-12 ring-1 ring-white/10 backdrop-blur-xl">
+        <div class="grid md:grid-cols-12 gap-6 md:gap-8 items-start">
+          <h2 class="md:col-span-4 text-2xl md:text-3xl font-semibold leading-tight text-white">
+            Search
+          </h2>
+          <p class="md:col-span-8 text-base md:text-lg leading-relaxed text-slate-300">
+            On these screens, the user can find a one-way or round-trip flight, directions and dates, the user can choose
+            the number of passengers, seat and class of the car. And which route suits him at the price. And also the final
+            result of the ticket.
+          </p>
+        </div>
+      </article>
+
+      <!-- 11, 12, 13 - sequential -->
+      <article class="shot-wrap bg-black/40 ring-1 ring-white/10 rounded-2xl overflow-hidden">
+        <img src="assets/Case2/11-seq.png" alt="Case 2 screenshot 11" class="w-full h-auto" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="shot-fallback">assets/Case2/11-seq.png</div>
+      </article>
+      <article class="shot-wrap bg-black/40 ring-1 ring-white/10 rounded-2xl overflow-hidden">
+        <img src="assets/Case2/12-seq.png" alt="Case 2 screenshot 12" class="w-full h-auto" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="shot-fallback">assets/Case2/12-seq.png</div>
+      </article>
+      <article class="shot-wrap bg-black/40 ring-1 ring-white/10 rounded-2xl overflow-hidden">
+        <img src="assets/Case2/13-seq.png" alt="Case 2 screenshot 13" class="w-full h-auto" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="shot-fallback">assets/Case2/13-seq.png</div>
+      </article>
+
+      <!-- Detail & payment text block -->
+      <article class="rounded-2xl bg-black/40 text-slate-200 p-12 ring-1 ring-white/10 backdrop-blur-xl">
+        <div class="grid md:grid-cols-12 gap-6 md:gap-8 items-start">
+          <h2 class="md:col-span-4 text-2xl md:text-3xl font-semibold leading-tight text-white">
+            Detail &amp; payment
+          </h2>
+          <p class="md:col-span-8 text-base md:text-lg leading-relaxed text-slate-300">
+            Many users got confused in payment and there are too many pages to open before paying, I simplified
+            everything, made convenient payment and detailing, nothing superfluous, only what is necessary.
+          </p>
+        </div>
+      </article>
+
+      <!-- Final 2 screenshots -->
+      <article class="shot-wrap bg-black/40 ring-1 ring-white/10 rounded-2xl overflow-hidden">
+        <img src="assets/Case2/25.png" alt="Case 2 screenshot 25" class="w-full h-auto" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="shot-fallback">assets/Case2/25.png</div>
+      </article>
+      <article class="shot-wrap bg-black/40 ring-1 ring-white/10 rounded-2xl overflow-hidden">
+        <img src="assets/Case2/26.png" alt="Case 2 screenshot 26" class="w-full h-auto" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="shot-fallback">assets/Case2/26.png</div>
+      </article>
+    </section>
+  </main>
+
+  <script>lucide.createIcons();</script>
+</body>
+</html>
+

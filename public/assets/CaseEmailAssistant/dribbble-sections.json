@@ -1,0 +1,177 @@
+[
+  {
+    "label": "#1. Priority detection and custom filtering",
+    "description": "This feature goes beyond traditional sorting algorithms to understand the context and content of your emails, prioritizing them by urgency and relevance. Imagine an inbox that automatically brings to the forefront critical messages requiring your immediate attention—whether it's an urgent request from a colleague or a time-sensitive project update. By leveraging AI's natural language understanding, this system not only categorizes emails more intelligently but also allows for custom filtering based on your specific needs, ensuring that important emails never get lost in the shuffle.",
+    "slides": [
+      {
+        "type": "video",
+        "src": "media/ch1.mp4",
+        "poster": "08.png",
+        "title": "Video demo"
+      },
+      {
+        "type": "image",
+        "src": "03.png",
+        "title": "Important tab — smart sorting"
+      },
+      {
+        "type": "image",
+        "src": "05.png",
+        "title": "Inbox overview"
+      },
+      {
+        "type": "image",
+        "src": "07.png",
+        "title": "Settings — priority & filters"
+      },
+      {
+        "type": "image",
+        "src": "06.png",
+        "title": "Meetings tab & AI filter suggestions"
+      },
+      {
+        "type": "image",
+        "src": "04.png",
+        "title": "Schedule meeting from urgent thread"
+      }
+    ]
+  },
+  {
+    "label": "#2. Personalized Reply Generation & Inbox Management",
+    "description": "With this innovation, your AI assistant doesn't just help you manage your emails; it becomes an active participant in crafting and refining your communications. Whether it's summarizing lengthy threads to extract actionable items or suggesting replies that match the tone and context of the conversation, this feature streamlines the email process. It's like having a personal secretary who knows exactly what you need and when you need it, making email management a seamless and less time-consuming task.",
+    "slides": [
+      {
+        "type": "video",
+        "src": "media/ch2-b.mp4",
+        "poster": "13.png",
+        "title": "Inbox management — video"
+      },
+      {
+        "type": "image",
+        "src": "14.png",
+        "title": "Important tab — inbox overview"
+      },
+      {
+        "type": "image",
+        "src": "16.png",
+        "title": "Inquiry thread — John Smith"
+      },
+      {
+        "type": "image",
+        "src": "18.png",
+        "title": "AI reply — tone of voice"
+      },
+      {
+        "type": "image",
+        "src": "15.png",
+        "title": "AI reply — generate pricing summary"
+      },
+      {
+        "type": "image",
+        "src": "17.png",
+        "title": "Reply draft — insert into thread"
+      }
+    ]
+  },
+  {
+    "label": "#3. AI-Powered Email Reply Automation",
+    "description": "AI-Powered Reply Automation transforms the daunting task of keeping up with your inbox into a breeze, especially when you're out of the office. Set up before you leave for a trip or when you're simply swamped, this feature ensures that every incoming email is handled efficiently. Your AI assistant drafts thoughtful, context-aware responses or smart auto-replies that inform senders of your availability, all while you focus on more pressing matters. This automation extends to organizing and prioritizing your inbox, so you return to a neatly sorted email landscape, ready for your review.",
+    "slides": [
+      {
+        "type": "video",
+        "src": "media/ch2-a.mp4",
+        "poster": "12.png",
+        "title": "Reply automation — video"
+      },
+      {
+        "type": "image",
+        "src": "09.png",
+        "title": "AI assistant — welcome"
+      },
+      {
+        "type": "image",
+        "src": "10.png",
+        "title": "Out-of-office setup prompt"
+      },
+      {
+        "type": "image",
+        "src": "11.png",
+        "title": "Summary & auto-reply draft"
+      }
+    ]
+  },
+  {
+    "label": "#4. Built-in AI Task Management Assistant",
+    "description": "Task management gets a futuristic upgrade with AI Task Assistance. Gone are the days of manually tracking document revisions or piecing together the latest project updates. This AI feature intelligently gathers, tags, and summarizes all versions of a document, even identifying and highlighting the key changes for you. It's designed to cut through the noise and confusion of constant updates, ensuring you always have the latest information at your fingertips. Plus, with smart naming conventions, it eliminates the guesswork in identifying documents, making your workflow as smooth and efficient as possible.",
+    "slides": [
+      {
+        "type": "video",
+        "src": "media/ch3-b.mp4",
+        "poster": "31.png",
+        "title": "Task management — video"
+      },
+      {
+        "type": "image",
+        "src": "29.png",
+        "title": "Inbox automation settings"
+      },
+      {
+        "type": "image",
+        "src": "26.png",
+        "title": "Contact hub — messages"
+      },
+      {
+        "type": "image",
+        "src": "30.png",
+        "title": "Files — Smart naming"
+      },
+      {
+        "type": "image",
+        "src": "28.png",
+        "title": "Files — AI search"
+      },
+      {
+        "type": "image",
+        "src": "25.png",
+        "title": "Partnership thread — AI summary"
+      },
+      {
+        "type": "image",
+        "src": "27.png",
+        "title": "Company overview"
+      }
+    ]
+  },
+  {
+    "label": "#5. Built-in Team & Project Management Assistant",
+    "description": "When unexpected changes occur, like a team member falling ill, this feature doesn't just notify you—it suggests and implements solutions. From finding replacements to adjusting project timelines, the AI analyses team skills and availability, making informed decisions to keep everything on track. This level of automation extends to generating emails, organizing tasks, and even strategizing for future emergencies, embodying a proactive approach to management that saves time and fosters a more adaptable work environment.",
+    "slides": [
+      {
+        "type": "video",
+        "src": "media/ch3-a.mp4",
+        "poster": "24.png",
+        "title": "Team & project — video"
+      },
+      {
+        "type": "image",
+        "src": "21.png",
+        "title": "Important tab — Georgia sick leave"
+      },
+      {
+        "type": "image",
+        "src": "20.png",
+        "title": "Thread — Georgia replacement project"
+      },
+      {
+        "type": "image",
+        "src": "23.png",
+        "title": "AI Assistant — short & long-term actions"
+      },
+      {
+        "type": "image",
+        "src": "22.png",
+        "title": "Execute all — AI composed tasks"
+      }
+    ]
+  }
+]

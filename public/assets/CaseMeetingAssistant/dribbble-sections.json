@@ -1,0 +1,231 @@
+[
+  {
+    "label": "#1. Speech Clarity & Disfluency Filtering",
+    "description": "Crafting seamless user experiences in online meetings starts with speech. Think of how speech disfluencies, like \"um\" and \"ah,\" can distract from a polished presentation. For UX/UI designers, integrating AI to filter these out means enhancing communication clarity. Imagine an online meeting tool that not only facilitates interaction but polishes it, presenting each speaker at their articulate best. This AI feature isn't just an add-on; it's a crucial tool in the UX designer's kit for crafting more engaging, professional digital meeting spaces.",
+    "slides": [
+      {
+        "type": "image",
+        "src": "29.png",
+        "title": "AI Speech Enhancer — overview"
+      },
+      {
+        "type": "video",
+        "src": "media/ch1.mp4",
+        "poster": "04.png",
+        "title": "Video demo"
+      },
+      {
+        "type": "image",
+        "src": "04.png",
+        "title": "Video + transcript — filler words detected"
+      },
+      {
+        "type": "image",
+        "src": "03.png",
+        "title": "Remove filler words"
+      },
+      {
+        "type": "image",
+        "src": "05.png",
+        "title": "Transcript with highlights"
+      }
+    ]
+  },
+  {
+    "label": "#2. AI Background Noise Removal",
+    "description": "Picture an online meeting platform that does more than facilitate communication; it refines and defines it, ensuring every voice is heard in pristine clarity, free from the distractions of the external world. Well, with advanced AI technology, soon we will witness how unwanted background sounds will be seamlessly detected and filtered out from video, live calls, or online meetings.",
+    "slides": [
+      {
+        "type": "image",
+        "src": "07.png",
+        "title": "AI for Meeting Noise Filtering"
+      },
+      {
+        "type": "video",
+        "src": "media/ch2.mp4",
+        "poster": "08.png",
+        "title": "Video demo"
+      },
+      {
+        "type": "image",
+        "src": "09.png",
+        "title": "Background voice cancellation"
+      },
+      {
+        "type": "image",
+        "src": "11.png",
+        "title": "Voice clarity — Clear noise"
+      },
+      {
+        "type": "image",
+        "src": "10.png",
+        "title": "Noise removed — success"
+      }
+    ]
+  },
+  {
+    "label": "#3. Real-time AI-Driven Explanation of Unknown Words or Jargon",
+    "description": "Enter the power of AI: a tool designed to demystify and decode, transforming bewildering terms into straightforward explanations in real-time. This feature is more than just a convenience—it's a catalyst for inclusive understanding, ensuring that clients, new team members, and stakeholders are never left in the dark.",
+    "slides": [
+      {
+        "type": "image",
+        "src": "12.jpg",
+        "title": "Explain this — AI feature"
+      },
+      {
+        "type": "video",
+        "src": "media/ch3.mp4",
+        "poster": "13.png",
+        "title": "Video demo"
+      },
+      {
+        "type": "image",
+        "src": "14.png",
+        "title": "Context menu — Copy, Translate, Explain"
+      },
+      {
+        "type": "image",
+        "src": "15.png",
+        "title": "Generating explanation"
+      }
+    ]
+  },
+  {
+    "label": "#4. Automated Note-taking for Takeaways and Tasks Generation",
+    "description": "By harnessing natural language processing, this AI goes beyond mere transcription. It delves into the heart of discussions, identifying key points and translating them into actionable items.",
+    "slides": [
+      {
+        "type": "image",
+        "src": "16.png",
+        "title": "AI meeting assistant — notes & tasks"
+      },
+      {
+        "type": "video",
+        "src": "media/ch4.mp4",
+        "poster": "17.png",
+        "title": "Video demo"
+      },
+      {
+        "type": "image",
+        "src": "34.png",
+        "title": "Meeting notes — Generate with AI"
+      },
+      {
+        "type": "image",
+        "src": "35.png",
+        "title": "Notes, takeaways & action items"
+      },
+      {
+        "type": "image",
+        "src": "36.png",
+        "title": "Transcript — filler words & Remove"
+      }
+    ]
+  },
+  {
+    "label": "#5. Tasks decomposition",
+    "description": "Work meetings often result in even more meetings and tasks 😊 Fortunately, AI can now ensure that every task mentioned is not only noted but also broken down into measurable subtasks: each clearly defined and assigned.",
+    "slides": [
+      {
+        "type": "image",
+        "src": "30.png",
+        "title": "AI tasks decomposition"
+      },
+      {
+        "type": "video",
+        "src": "media/ch5.mp4",
+        "poster": "19.png",
+        "title": "Video demo"
+      },
+      {
+        "type": "image",
+        "src": "31.png",
+        "title": "Meeting notes — Create tasks"
+      },
+      {
+        "type": "image",
+        "src": "32.png",
+        "title": "3 issues generated with AI"
+      },
+      {
+        "type": "image",
+        "src": "33.png",
+        "title": "Task hierarchy & subtasks"
+      }
+    ]
+  },
+  {
+    "label": "#6. AI Meeting Scheduling Assistant",
+    "description": "This AI functionality goes beyond simple calendar management; it analyzes participants' schedules, identifies mutual availability, and proposes optimal meeting times, all with minimal input from the user. For product designers, this represents a chance to lead in the video conferencing domain, offering solutions that anticipate user needs and streamline their workflow.",
+    "slides": [
+      {
+        "type": "image",
+        "src": "18.jpg",
+        "title": "AI that schedules meetings for you"
+      },
+      {
+        "type": "video",
+        "src": "media/ch6.mp4",
+        "poster": "24.png",
+        "title": "Video demo"
+      },
+      {
+        "type": "image",
+        "src": "37.png",
+        "title": "Schedule new meeting — AI timeslots"
+      },
+      {
+        "type": "image",
+        "src": "22.png",
+        "title": "Notes — Schedule meeting"
+      },
+      {
+        "type": "image",
+        "src": "20.png",
+        "title": "Meeting scheduled — calendar"
+      },
+      {
+        "type": "image",
+        "src": "21.png",
+        "title": "Meetings tab — external participant"
+      }
+    ]
+  },
+  {
+    "label": "#7. Enhancing Data Interaction with AI Natural Language Processing",
+    "description": "For product designers focusing on elevating the user experience, incorporating natural language processing (NLP) for data queries is a critical innovation. This feature allows users to engage with their data through simple, conversational language. The introduction of NLP into your platform means that users, regardless of their technical expertise, can easily access and understand meeting analytics. From sentiment analysis and attendee engagement to productivity metrics, these insights can be extracted without the need for intricate SQL queries, making data exploration accessible to all. As a digital product design agency, we're experimenting with various AI UX patterns for different products. Our goal is to demonstrate how AI can smoothly streamline user tasks, whether in established or emerging tools. Let's discuss how you can address users' challenges and streamline workflows with innovative AI features! ✅ Check out our case studies ✅ Follow us on Cieden We don't just do cute. We do design that works. Get in touch More by Cieden View profile View comments 1 Share actions Detail actions Animation Illustration Web Design Print Typography Product Design Branding Mobile Animation Il",
+    "slides": [
+      {
+        "type": "image",
+        "src": "23.png",
+        "title": "Natural language queries"
+      },
+      {
+        "type": "video",
+        "src": "media/ch7.mp4",
+        "poster": "25.png",
+        "title": "Video demo"
+      },
+      {
+        "type": "image",
+        "src": "25.png",
+        "title": "Filter with AI"
+      },
+      {
+        "type": "image",
+        "src": "28.png",
+        "title": "Generated query — Done"
+      },
+      {
+        "type": "image",
+        "src": "26.png",
+        "title": "AI search — query bar"
+      },
+      {
+        "type": "image",
+        "src": "27.png",
+        "title": "AI search — results"
+      }
+    ]
+  }
+]

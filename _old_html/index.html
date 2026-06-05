@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dmytro Chyzh — UI/UX Product Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <style>
+    body { font-family: 'Inter', ui-sans-serif, system-ui, sans-serif; }
+    @keyframes fadeSlideIn {
+      from { opacity: 0; transform: translateY(32px); filter: blur(8px); }
+      to { opacity: 1; transform: translateY(0); filter: blur(0); }
+    }
+    @keyframes marqueeRow {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .marquee-mask {
+      overflow: hidden;
+      position: relative;
+      mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    }
+    .marquee-track {
+      display: flex;
+      width: max-content;
+      animation: marqueeRow 95s linear infinite;
+    }
+    .marquee-track-skills {
+      animation-duration: 130s;
+    }
+    .marquee-item i {
+      width: 22px;
+      height: 22px;
+    }
+    .marquee-item p.text-sm {
+      font-size: 15px;
+      line-height: 1.25;
+    }
+    .marquee-item p.text-xs {
+      font-size: 13px;
+      line-height: 1.35;
+    }
+  </style>
+</head>
+<body class="antialiased text-slate-100 bg-slate-950 min-h-screen" style="font-family: Inter, ui-sans-serif, system-ui, sans-serif;">
+
+  <!-- Background (component) added by Aura -->
+  <div class="aura-background-component fixed top-0 w-full h-screen -z-10">
+    <div data-us-project="OMO2zbNkRGUqAVYhB4jD" class="absolute top-0 left-0 -z-10 w-full h-full"></div>
+    <script type="text/javascript">
+      !function () {
+        if (!window.UnicornStudio) {
+          window.UnicornStudio = { isInitialized: !1 };
+          var i = document.createElement("script");
+          i.src = "https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v1.4.29/dist/unicornStudio.umd.js";
+          i.onload = function () {
+            window.UnicornStudio.isInitialized || (UnicornStudio.init(), window.UnicornStudio.isInitialized = !0);
+          };
+          (document.head || document.body).appendChild(i);
+        }
+      }();
+    </script>
+  </div>
+
+  <div class="relative isolate overflow-hidden">
+    <!-- Header -->
+    <header class="max-w-7xl mx-auto pt-6 px-6 relative">
+      <div class="flex items-center justify-between">
+        <a href="index.html" class="text-xl font-semibold text-white tracking-tight">Dmytro Chyzh</a>
+        <nav class="hidden md:flex items-center gap-8 text-sm text-slate-200/80 absolute left-1/2 -translate-x-1/2">
+          <a href="index.html" class="hover:text-white transition">Overview</a>
+          <a href="case-studies.html" class="hover:text-white transition">Case Studies</a>
+        </nav>
+        <a href="mailto:dima.chyzuk@gmail.com" class="hidden md:inline-flex items-center gap-2 px-5 py-2 text-sm font-medium text-slate-100 bg-white/5 hover:bg-white/10 ring-1 ring-teal-400/40 hover:ring-teal-400/60 rounded-full transition shadow-[0_0_20px_rgba(45,212,191,0.35)]">
+          Get in Contact
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </a>
+        <a href="mailto:dima.chyzuk@gmail.com" class="md:hidden inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-slate-100 bg-white/5 hover:bg-white/10 ring-1 ring-teal-400/40 hover:ring-teal-400/60 rounded-full transition shadow-[0_0_20px_rgba(45,212,191,0.35)]">
+          Get in Contact
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </a>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="about" class="max-w-7xl mx-auto pt-24 lg:pt-32 pb-24 lg:pb-32 px-6">
+      <div class="grid lg:grid-cols-12 gap-16 items-center">
+        <div class="lg:col-span-7 opacity-0 blur-sm translate-y-8" style="animation: fadeSlideIn 0.8s ease-out 0.2s forwards;">
+          <h1 class="text-5xl lg:text-7xl font-semibold text-white tracking-tight leading-[1.05] mb-6">
+            Dmytro Chyzh<br>
+            <span class="text-teal-400 text-2xl lg:text-3xl font-medium">UI UX Product Designer</span>
+          </h1>
+          <p class="text-base md:text-lg text-slate-300 leading-relaxed max-w-2xl mb-6">
+            UI/UX designer and vibe coder working at the intersection of design, product logic, and code. I create modern visuals, thoughtful interfaces, and interactive prototypes that are easy to hand off to development. From idea, structure, and user scenarios to visual storytelling and micro-interactions, I focus on products that look great, feel clear, and deliver business results.
+          </p>
+          <div class="grid sm:grid-cols-2 gap-4 mb-8">
+            <div class="bg-black/30 ring-1 ring-white/10 rounded-xl p-4">
+              <p class="text-xs uppercase tracking-wider text-teal-300 mb-2">What I do</p>
+              <ul class="space-y-1.5 text-sm text-slate-300">
+                <li class="flex items-start gap-2"><span class="w-1.5 h-1.5 rounded-full bg-teal-400 mt-1.5 flex-shrink-0"></span>UI/UX and visual design</li>
+                <li class="flex items-start gap-2"><span class="w-1.5 h-1.5 rounded-full bg-teal-400 mt-1.5 flex-shrink-0"></span>Animations and prototypes in Figma</li>
+                <li class="flex items-start gap-2"><span class="w-1.5 h-1.5 rounded-full bg-teal-400 mt-1.5 flex-shrink-0"></span>Vibe coding and design in code</li>
+              </ul>
+            </div>
+            <div class="bg-black/30 ring-1 ring-white/10 rounded-xl p-4">
+              <p class="text-xs uppercase tracking-wider text-teal-300 mb-2">Strengths</p>
+              <ul class="space-y-1.5 text-sm text-slate-300">
+                <li class="flex items-start gap-2"><span class="w-1.5 h-1.5 rounded-full bg-teal-400 mt-1.5 flex-shrink-0"></span>Communication and teamwork</li>
+                <li class="flex items-start gap-2"><span class="w-1.5 h-1.5 rounded-full bg-teal-400 mt-1.5 flex-shrink-0"></span>Responsibility and deadlines</li>
+                <li class="flex items-start gap-2"><span class="w-1.5 h-1.5 rounded-full bg-teal-400 mt-1.5 flex-shrink-0"></span>Flexibility and fast learning</li>
+              </ul>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 gap-8 pt-8 border-t border-white/10">
+            <div>
+              <div class="text-2xl font-semibold text-white">2 years</div>
+              <div class="text-sm text-slate-400">Experience</div>
+            </div>
+            <div>
+              <div class="text-2xl font-semibold text-white">Cieden</div>
+              <div class="text-sm text-slate-400">Working at</div>
+            </div>
+          </div>
+        </div>
+        <div class="lg:col-span-5 opacity-0 blur-sm translate-x-8" style="animation: fadeSlideIn 0.8s ease-out 0.6s forwards;">
+          <div class="relative flex justify-center lg:justify-end">
+            <div class="relative w-full max-w-sm">
+              <div class="aspect-square rounded-2xl overflow-hidden bg-black/40 backdrop-blur-xl ring-1 ring-white/10 shadow-2xl">
+                <img src="assets/photo_2.jpg" alt="Dmytro Chyzh" class="w-full h-full object-cover" onerror="if(this.src.includes('photo_2.jpg')){this.src='assets/photo_2.png';}else if(this.src.includes('photo_2.png')){this.src='assets/photo.png';}else{this.onerror=null;}" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+  </div>
+
+  
+
+  <!-- Skills / Industries / Tools -->
+  <section id="skills" class="max-w-7xl mx-auto pt-24 pb-24 px-6">
+    <div class="text-center mb-16">
+      <div class="inline-flex items-center gap-2 px-3 py-1 text-xs font-medium text-teal-300 bg-teal-400/10 ring-1 ring-teal-400/20 rounded-full mb-6">
+        <i data-lucide="sparkles" class="w-3 h-3"></i>
+        What I do best
+      </div>
+      <h2 class="text-4xl lg:text-5xl font-semibold text-white tracking-tight leading-tight mb-6">
+        Skills, industries, and tools
+      </h2>
+      <p class="text-xl text-slate-300 max-w-2xl mx-auto">
+        Product thinking, UX strategy, visual design, design systems, and a modern tool stack.
+      </p>
+    </div>
+
+    <div class="space-y-10">
+      <!-- Skills row -->
+      <div>
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="text-xs font-semibold tracking-[0.25em] uppercase text-slate-300">Skills</h3>
+        </div>
+        <div class="marquee-mask rounded-2xl border border-white/10 bg-black/20 py-4">
+          <div class="marquee-track marquee-track-skills gap-4 px-4">
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="lightbulb" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Product thinking</p></div>
+              <p class="text-xs text-slate-400">Focus on value for business and users.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="test-tube-2" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Usability testing</p></div>
+              <p class="text-xs text-slate-400">Hypothesis validation with real users.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="bar-chart-2" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Competitive analysis</p></div>
+              <p class="text-xs text-slate-400">Market and competitor analysis.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="sitemap" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Information architecture</p></div>
+              <p class="text-xs text-slate-400">Content and navigation structure.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="git-branch" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">User flows</p></div>
+              <p class="text-xs text-slate-400">User scenarios and flows.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="layout" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Wireframing</p></div>
+              <p class="text-xs text-slate-400">Fast prototypes to align ideas.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="hand" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Interaction design</p></div>
+              <p class="text-xs text-slate-400">Micro-interactions and interface states.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="palette" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Visual design</p></div>
+              <p class="text-xs text-slate-400">Visual language, typography, details.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="monitor" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Responsive design</p></div>
+              <p class="text-xs text-slate-400">Responsive behavior across screens.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="smartphone" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Mobile design</p></div>
+              <p class="text-xs text-slate-400">UI/UX for mobile apps.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="pen-tool" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Illustrations</p></div>
+              <p class="text-xs text-slate-400">Illustrations and iconography.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="package" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Design systems</p></div>
+              <p class="text-xs text-slate-400">Components, tokens, consistency.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="check-circle" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">QA review</p></div>
+              <p class="text-xs text-slate-400">Quality checks and design fidelity.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="presentation" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Presentations</p></div>
+              <p class="text-xs text-slate-400">Presentations and public speaking.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="sparkles" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">AI prototyping</p></div>
+              <p class="text-xs text-slate-400">Prototypes using AI tools.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="code" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Design-to-code</p></div>
+              <p class="text-xs text-slate-400">Design handoff to code and front-end implementation.</p>
+            </div>
+            <!-- loop 2 -->
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="lightbulb" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Product thinking</p></div>
+              <p class="text-xs text-slate-400">Focus on value for business and users.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="test-tube-2" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Usability testing</p></div>
+              <p class="text-xs text-slate-400">Hypothesis validation with real users.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="bar-chart-2" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Competitive analysis</p></div>
+              <p class="text-xs text-slate-400">Market and competitor analysis.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="sitemap" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Information architecture</p></div>
+              <p class="text-xs text-slate-400">Content and navigation structure.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="git-branch" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">User flows</p></div>
+              <p class="text-xs text-slate-400">User scenarios and flows.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="layout" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Wireframing</p></div>
+              <p class="text-xs text-slate-400">Fast prototypes to align ideas.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="hand" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Interaction design</p></div>
+              <p class="text-xs text-slate-400">Micro-interactions and interface states.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="palette" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Visual design</p></div>
+              <p class="text-xs text-slate-400">Visual language, typography, details.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="monitor" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Responsive design</p></div>
+              <p class="text-xs text-slate-400">Responsive behavior across screens.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="smartphone" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Mobile design</p></div>
+              <p class="text-xs text-slate-400">UI/UX for mobile apps.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="pen-tool" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Illustrations</p></div>
+              <p class="text-xs text-slate-400">Illustrations and iconography.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="package" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Design systems</p></div>
+              <p class="text-xs text-slate-400">Components, tokens, consistency.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="check-circle" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">QA review</p></div>
+              <p class="text-xs text-slate-400">Quality checks and design fidelity.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="presentation" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Presentations</p></div>
+              <p class="text-xs text-slate-400">Presentations and public speaking.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="sparkles" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">AI prototyping</p></div>
+              <p class="text-xs text-slate-400">Prototypes using AI tools.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="code" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Design-to-code</p></div>
+              <p class="text-xs text-slate-400">Design handoff to code and front-end implementation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Industries row -->
+      <div id="industries">
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="text-xs font-semibold tracking-[0.25em] uppercase text-slate-300">Industries</h3>
+        </div>
+        <div class="marquee-mask rounded-2xl border border-white/10 bg-black/20 py-4">
+          <div class="marquee-track gap-4 px-4">
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="dumbbell" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Lifestyle &amp; Sport</p></div>
+              <p class="text-xs text-slate-400">Health, fitness, and active lifestyle.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="heart-pulse" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Digital Health</p></div>
+              <p class="text-xs text-slate-400">Medical apps, telemedicine, wellness.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[220px]" style="display:none">
+              <p class="text-sm font-medium text-white mb-1">Real Estate</p>
+              <p class="text-xs text-slate-400">Search, listing cards, booking.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="truck" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Logistics</p></div>
+              <p class="text-xs text-slate-400">Tracking, routes, delivery dashboards.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="building-2" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Real Estate</p></div>
+              <p class="text-xs text-slate-400">Search, listing cards, booking.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="car" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Automotive</p></div>
+              <p class="text-xs text-slate-400">Automotive apps.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="leaf" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Environment</p></div>
+              <p class="text-xs text-slate-400">Eco projects and sustainability.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="brain" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">AI</p></div>
+              <p class="text-xs text-slate-400">AI-powered products.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="radio" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Media</p></div>
+              <p class="text-xs text-slate-400">Content, social media, and media platforms.</p>
+            </div>
+            <!-- loop 2 -->
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="dumbbell" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Lifestyle &amp; Sport</p></div>
+              <p class="text-xs text-slate-400">Health, fitness, and active lifestyle.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="heart-pulse" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Digital Health</p></div>
+              <p class="text-xs text-slate-400">Medical apps, telemedicine, wellness.</p>
+              <p class="text-xs text-slate-400">Search, listing cards, booking.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="truck" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Logistics</p></div>
+              <p class="text-xs text-slate-400">Tracking, routes, delivery dashboards.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="building-2" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Real Estate</p></div>
+              <p class="text-xs text-slate-400">Search, listing cards, booking.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="car" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Automotive</p></div>
+              <p class="text-xs text-slate-400">Automotive apps.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="leaf" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Environment</p></div>
+              <p class="text-xs text-slate-400">Eco projects and sustainability.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="brain" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">AI</p></div>
+              <p class="text-xs text-slate-400">AI-powered products.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="radio" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Media</p></div>
+              <p class="text-xs text-slate-400">Content, social media, and media platforms.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tools row -->
+      <div id="tools">
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="text-xs font-semibold tracking-[0.25em] uppercase text-slate-300">Tools</h3>
+        </div>
+        <div class="marquee-mask rounded-2xl border border-white/10 bg-black/20 py-4">
+          <div class="marquee-track gap-4 px-4">
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="palette" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Figma</p></div>
+              <p class="text-xs text-slate-400">Design, prototypes, auto-layout.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="layout-grid" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">FigJam</p></div>
+              <p class="text-xs text-slate-400">Workshops, maps, brainstorming.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="sparkles" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Figma Make</p></div>
+              <p class="text-xs text-slate-400">AI tools in Figma.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="bot" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Claude AI</p></div>
+              <p class="text-xs text-slate-400">Assistant for design and code.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="mouse-pointer" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Cursor</p></div>
+              <p class="text-xs text-slate-400">AI code editor.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="image" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Photoshop</p></div>
+              <p class="text-xs text-slate-400">Graphics, image editing.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="heart" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Lovable</p></div>
+              <p class="text-xs text-slate-400">AI for UI creation.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="box" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">v0 (Vercel)</p></div>
+              <p class="text-xs text-slate-400">UI generation from prompts.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="message-square" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">ChatGPT</p></div>
+              <p class="text-xs text-slate-400">Copywriting, ideas, prototypes.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="code" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">HTML/CSS</p></div>
+              <p class="text-xs text-slate-400">Layout, styling, responsiveness.</p>
+            </div>
+            <!-- loop 2 -->
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="palette" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Figma</p></div>
+              <p class="text-xs text-slate-400">Design, prototypes, auto-layout.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="layout-grid" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">FigJam</p></div>
+              <p class="text-xs text-slate-400">Workshops, maps, brainstorming.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="sparkles" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Figma Make</p></div>
+              <p class="text-xs text-slate-400">AI tools in Figma.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="bot" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Claude AI</p></div>
+              <p class="text-xs text-slate-400">Assistant for design and code.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="mouse-pointer" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Cursor</p></div>
+              <p class="text-xs text-slate-400">AI code editor.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="image" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Photoshop</p></div>
+              <p class="text-xs text-slate-400">Graphics, image editing.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="heart" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">Lovable</p></div>
+              <p class="text-xs text-slate-400">AI for UI creation.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="box" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">v0 (Vercel)</p></div>
+              <p class="text-xs text-slate-400">UI generation from prompts.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="message-square" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">ChatGPT</p></div>
+              <p class="text-xs text-slate-400">Copywriting, ideas, prototypes.</p>
+            </div>
+            <div class="marquee-item bg-black/40 ring-1 ring-white/10 rounded-2xl px-6 py-4 min-w-[240px] flex flex-col items-start gap-2">
+              <div class="flex items-center gap-3"><i data-lucide="code" class="w-5 h-5 text-teal-400 flex-shrink-0"></i><p class="text-sm font-medium text-white mb-0">HTML/CSS</p></div>
+              <p class="text-xs text-slate-400">Layout, styling, responsiveness.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+  </div>
+
+  <!-- Education + Courses -->
+  <section id="education" class="max-w-7xl mx-auto pt-24 pb-24 px-6">
+    <div class="text-center mb-12">
+      <div class="inline-flex items-center gap-2 px-3 py-1 text-xs font-medium text-teal-300 bg-teal-400/10 ring-1 ring-teal-400/20 rounded-full mb-6">
+        <i data-lucide="graduation-cap" class="w-3 h-3"></i>
+        Education and certificates
+      </div>
+      <h2 class="text-4xl lg:text-5xl font-semibold text-white tracking-tight leading-tight mb-4">
+        Learning and <span class="text-teal-400">certificates</span>
+      </h2>
+      <p class="text-sm text-slate-400 max-w-xl mx-auto">
+        Continuous learning is key to growth. Hover over a card to see details.
+      </p>
+    </div>
+
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
+      <!-- Base education: Dubliany, agroengineering -->
+      <article class="group bg-slate-950/60 rounded-2xl border border-white/10 shadow-[0_18px_45px_rgba(0,0,0,0.6)] px-5 py-6 flex flex-col justify-between hover:border-teal-400/60 hover:shadow-[0_20px_60px_rgba(45,212,191,0.35)] transition-all duration-300">
+        <div>
+          <p class="text-xs text-slate-400 mb-3 uppercase tracking-[0.16em]">Education</p>
+          <h3 class="text-base font-semibold text-white mb-1">Dubliany</h3>
+          <p class="text-sm text-slate-400">Agroengineer. Base education; design through courses and self-learning.</p>
+        </div>
+        <div class="mt-6 flex items-center justify-between text-xs text-slate-500">
+          <span>Base education</span>
+          <span class="inline-flex items-center gap-1 text-teal-300 group-hover:text-teal-200 transition">
+            Full program
+          </span>
+        </div>
+      </article>
+
+      <!-- Certificate: Mobile Apps Design -->
+      <article class="group bg-slate-950/60 rounded-2xl border border-white/10 shadow-[0_18px_45px_rgba(0,0,0,0.6)] px-5 py-6 flex flex-col justify-between hover:border-teal-400/60 hover:shadow-[0_20px_60px_rgba(45,212,191,0.35)] transition-all duration-300">
+        <div>
+          <p class="text-xs text-slate-400 mb-3 uppercase tracking-[0.16em]">Certification</p>
+          <h3 class="text-base font-semibold text-white mb-1 leading-snug">Mobile Apps Design (course)</h3>
+          <p class="text-sm text-slate-400">CREATIVE &amp; TECH PRJCTR Online Institute</p>
+        </div>
+        <div class="mt-6 flex items-center justify-between text-xs text-slate-500">
+          <span>25.11.2024 – 04.02.2025</span>
+          <span class="inline-flex items-center gap-1 text-teal-300 group-hover:text-teal-200 transition">
+            Certified
+          </span>
+        </div>
+      </article>
+
+      <!-- growth.design course -->
+      <article class="group bg-slate-950/60 rounded-2xl border border-white/10 shadow-[0_18px_45px_rgba(0,0,0,0.6)] px-5 py-6 flex flex-col justify-between hover:border-teal-400/60 hover:shadow-[0_20px_60px_rgba(45,212,191,0.35)] transition-all duration-300">
+        <div>
+          <p class="text-xs text-slate-400 mb-3 uppercase tracking-[0.16em]">Course</p>
+          <h3 class="text-base font-semibold text-white mb-1 leading-snug">growth.design</h3>
+          <p class="text-sm text-slate-400">Product, UX, growth - completed course.</p>
+        </div>
+        <div class="mt-6 flex items-center justify-between text-xs text-slate-500">
+          <span>Course</span>
+          <span class="inline-flex items-center gap-1 text-teal-300 group-hover:text-teal-200 transition">
+            Completed
+          </span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="max-w-7xl mx-auto pt-20 pb-12 px-6">
+    <div class="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-12"></div>
+    <!-- Links row -->
+    <div class="flex flex-wrap justify-center gap-8 md:gap-12 mb-12">
+      <a href="https://www.linkedin.com/in/dima-chyzh-0360aa24a/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-slate-300 hover:text-white transition text-sm">
+        Linkedin
+        <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+      </a>
+      <a href="https://www.instagram.com/dmytro.chyzh/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-slate-300 hover:text-white transition text-sm">
+        Instagram
+        <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+      </a>
+    </div>
+    <!-- Contact & Copyright row -->
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 text-sm text-slate-400">
+      <div class="space-y-1">
+        <a href="mailto:dima.chyzuk@gmail.com" class="block hover:text-white transition">dima.chyzuk@gmail.com</a>
+      </div>
+      <div class="space-y-1 md:text-right">
+        <span class="block">Lviv, Ukraine</span>
+        <span class="block">© 2026 Dmytro Chyzh Portfolio</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>

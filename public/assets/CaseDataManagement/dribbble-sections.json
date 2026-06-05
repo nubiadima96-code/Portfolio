@@ -1,0 +1,167 @@
+[
+  {
+    "label": "#1. AI Autofill of Text and Data",
+    "description": "Autofill? It's way more than a shortcut—it's revolutionizing how we interact with data in platforms like CMS and CRM. With AI in the mix, we're not just speeding through form fields; we're intelligently organizing, cleaning, and syncing data across different formats, from texts to PDFs to images. Imagine not just trimming time but slashing costs, potentially saving companies big bucks. By 2025, in life-or-death areas like healthcare, this technology could be flipping missed diagnoses into lives saved. As UX/UI designers, our mission is crystal clear: to harness this technology, making powerful data management as easy as a few clicks. We're on the path to a smarter, faster, more human-centered future. And that’s the kind of change we're excited to bring to life.",
+    "slides": [
+      {
+        "type": "image",
+        "src": "02.png",
+        "title": "AI Autofill of Text & Data — overview"
+      },
+      {
+        "type": "video",
+        "src": "media/ch1.mp4",
+        "poster": "03.png",
+        "title": "Video demo"
+      },
+      {
+        "type": "image",
+        "src": "07.png",
+        "title": "Enrich column data"
+      },
+      {
+        "type": "image",
+        "src": "04.png",
+        "title": "Reformat — enrich references"
+      },
+      {
+        "type": "image",
+        "src": "06.png",
+        "title": "Generating autofill"
+      },
+      {
+        "type": "image",
+        "src": "05.png",
+        "title": "Categories, author & publisher suggestions"
+      }
+    ]
+  },
+  {
+    "label": "#2. Built-in AI writer for description generation",
+    "description": "Soon, AI's knack for crafting product and service descriptions is set to soar, offering language that's not just tailored, but truly resonant with different audience groups. This leap forward means descriptions that feel more personal, more diverse, and more human. Behind the scenes, this evolution is powered by advanced generative AI models, finely tuned to speak directly to your audience's real needs. But the real magic happens when these AI models team up with Enterprise Data Catalogs (EDCs) and sophisticated data modeling. This trio guarantees that the content is not only engaging but also grounded in accurate, trustworthy, and relevant information.",
+    "slides": [
+      {
+        "type": "video",
+        "src": "media/ch2.mp4",
+        "poster": "09.png",
+        "title": "Video demo"
+      },
+      {
+        "type": "image",
+        "src": "10.png",
+        "title": "Bookstore products — fill with AI"
+      },
+      {
+        "type": "image",
+        "src": "11.png",
+        "title": "AI writer — prompt & generate"
+      },
+      {
+        "type": "image",
+        "src": "23.png",
+        "title": "Generating descriptions"
+      },
+      {
+        "type": "image",
+        "src": "24.png",
+        "title": "Validation — missing book title"
+      }
+    ]
+  },
+  {
+    "label": "#3. AI-assisted formula generation & calculation",
+    "description": "Picture an AI Assistant that turns everyday language into exact calculations, bringing complex data analysis right to everyone's fingertips 🚀✨ We're imagining a world where you just tell the AI what you need in simple words, and it gets to work—crafting detailed formulas, crunching numbers, and delivering the results so they make sense to you. This idea is all about making data analysis easy for anyone, anywhere, with just a quick sentence.",
+    "slides": [
+      {
+        "type": "image",
+        "src": "12.png",
+        "title": "AI Formula Assistant — overview"
+      },
+      {
+        "type": "video",
+        "src": "media/ch3.mp4",
+        "poster": "16.png",
+        "title": "Video demo"
+      },
+      {
+        "type": "image",
+        "src": "13.png",
+        "title": "Product performance report"
+      },
+      {
+        "type": "image",
+        "src": "15.png",
+        "title": "Calculate formula — performance index"
+      },
+      {
+        "type": "image",
+        "src": "14.png",
+        "title": "Calculate formula — generate"
+      }
+    ]
+  },
+  {
+    "label": "#4. AI Data Unification",
+    "description": "Discover the power of AI in bringing harmony to data across a myriad of products and fields, far surpassing the usual e-commerce applications. Our approach employs AI to seamlessly standardize diverse data types—like measurements, dates, and phone numbers—across any system in need of meticulous data management. At the forefront of this innovation are sophisticated language models such as GPT-4, celebrated for their immediate context comprehension. These models are crucial for keeping pace with the fluid nature of data formats, user behaviors, and market shifts, providing a level of adaptability that's truly groundbreaking. Our goal? To make data management not only more efficient but also instinctively understandable and user-friendly.",
+    "slides": [
+      {
+        "type": "image",
+        "src": "17.png",
+        "title": "AI-Driven Data Unification — overview"
+      },
+      {
+        "type": "video",
+        "src": "media/ch4.mp4",
+        "poster": "21.png",
+        "title": "Video demo"
+      },
+      {
+        "type": "image",
+        "src": "20.png",
+        "title": "Unify dimensions & weight — prompt"
+      },
+      {
+        "type": "image",
+        "src": "18.png",
+        "title": "Reformat — convert to metric"
+      },
+      {
+        "type": "image",
+        "src": "19.png",
+        "title": "Generating unified measurements"
+      }
+    ]
+  },
+  {
+    "label": "#5. AI Data Visualization and Explanation",
+    "description": "Before AI, creating data dashboards was often a cumbersome, manual process filled with limitations. But imagine a world where you can simply type what you need, and AI does the rest: pulling up data, crafting user-friendly layouts, providing sharp insights, and suggesting the best visualizations to make your dashboard truly your own. 🤩 Now, users can direct an AI assistant to delve into specific data sets, bringing to light essential insights for smarter business decisions. With the knack for spotting trends and offering actionable advice, AI is revolutionizing dashboard customization — making it more intuitive, focused on the user, and incredibly flexible. As we move forward, AI in UX/UI design points us toward a future of self-tuning, effortless data management solutions. Embracing AI-driven data management now could be the key to unlocking a future where strategic insights and ease of use go hand in hand. \"As a digital product design agency, we're constantly experimenting with various AI UX patterns for different products. Our goal is to demonstrate how AI can streamline user tasks, whether in established or emerging tools\" Let's discuss how you can address users' challenges an",
+    "slides": [
+      {
+        "type": "image",
+        "src": "25.png",
+        "title": "Data Explanation — overview"
+      },
+      {
+        "type": "video",
+        "src": "media/ch5.mp4",
+        "poster": "22.png",
+        "title": "Video demo"
+      },
+      {
+        "type": "image",
+        "src": "26.png",
+        "title": "Dashboard — KPIs & scatter plot"
+      },
+      {
+        "type": "image",
+        "src": "27.png",
+        "title": "Analyze chart — AI assistant"
+      },
+      {
+        "type": "image",
+        "src": "28.png",
+        "title": "Sales record — AI insights"
+      }
+    ]
+  }
+]
