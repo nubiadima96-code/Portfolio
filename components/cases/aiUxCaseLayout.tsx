@@ -32,6 +32,48 @@ export const AiCaseAboutSection = ({
 export const aiCaseMainClassName =
   "max-w-7xl mx-auto w-full pt-16 pb-24 px-6 space-y-20 lg:space-y-24";
 
+export const caseChapterStackClassName =
+  "w-full space-y-16 md:space-y-20 lg:space-y-24";
+
+export const CaseTextMediaSection = ({
+  title,
+  description,
+  children,
+}: {
+  title: string;
+  description: string;
+  children: ReactNode;
+}) => (
+  <section className="space-y-8 md:space-y-10 lg:space-y-12">
+    <header className="space-y-3 md:space-y-4 max-w-4xl">
+      <h3 className="text-xl md:text-2xl lg:text-3xl font-semibold text-white tracking-tight">
+        {title}
+      </h3>
+      <p className="text-base md:text-lg leading-relaxed text-slate-300 lg:max-w-[90%]">
+        {description}
+      </p>
+    </header>
+    <div className="pt-1 lg:pt-2">{children}</div>
+  </section>
+);
+
+export const CaseTextBlock = ({
+  title,
+  description,
+}: {
+  title: string;
+  description: string;
+}) => (
+  <header className="space-y-3 md:space-y-4 max-w-4xl">
+    <h3 className="text-xl md:text-2xl lg:text-3xl font-semibold text-white tracking-tight">
+      {title}
+    </h3>
+    <p className="text-base md:text-lg leading-relaxed text-slate-300 lg:max-w-[90%]">
+      {description}
+    </p>
+  </header>
+);
+
 export const AiUxShot = ({ src, alt }: { src: string; alt: string }) => (
   <img src={src} alt={alt} className="w-full h-auto block" />
 );

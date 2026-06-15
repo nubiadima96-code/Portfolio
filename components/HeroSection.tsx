@@ -34,9 +34,19 @@ export const HeroSection = () => {
           </div>
 
           <div className="flex flex-wrap gap-4">
+            <a
+              href="/About%20Page%20Materials/CV-UXUI-Product-Designer-Dmytro-Chyzh.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium text-white bg-teal-400/15 hover:bg-teal-400/25 ring-1 ring-teal-400/50 hover:ring-teal-400 rounded-full transition shadow-[0_0_30px_rgba(45,212,191,0.25)]"
+              aria-label="View portfolio PDF"
+            >
+              View Portfolio
+              <ArrowRight className="w-4 h-4" aria-hidden />
+            </a>
             <Link
               href="/case-studies"
-              className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium text-white bg-teal-400/15 hover:bg-teal-400/25 ring-1 ring-teal-400/50 hover:ring-teal-400 rounded-full transition shadow-[0_0_30px_rgba(45,212,191,0.25)]"
+              className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium text-slate-100 bg-white/5 hover:bg-white/10 ring-1 ring-white/10 hover:ring-white/20 rounded-full transition"
             >
               View Case Studies
               <ArrowRight className="w-4 h-4" />

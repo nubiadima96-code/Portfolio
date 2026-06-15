@@ -97,19 +97,26 @@ export interface CaseStudy {
 export const caseStudies: CaseStudy[] = [
   {
     slug: "ai-chatbot-dashboard",
-    title: "AI Chatbot & Manager Dashboard",
-    subtitle: "for a company website",
-    badge: "Internal product project",
-    badgeIcon: "Building2",
-    description: "An AI chatbot that replaces the initial sales/briefing stage, plus a dashboard for managers to prepare them before client contact and improve lead quality.",
+    title: "Cieden AI Assistant",
+    subtitle: "website chatbot for sales & briefing",
+    badge: "Internal product · Live on site",
+    badgeIcon: "MessageSquare",
+    description:
+      "A live AI assistant on the company website that qualifies leads, answers about services, shows portfolio & process, runs preliminary estimates, and books calls — 24/7, without a cold contact form.",
     tags: [
       { icon: "MessageSquare", label: "UI/UX · UX Logic" },
-      { icon: "Film", label: "Animation" },
-      { icon: "LayoutDashboard", label: "Vibe Coding · AI + Frontend" },
+      { icon: "Sparkles", label: "AI sales assistant" },
+      { icon: "Calculator", label: "Preliminary estimate" },
     ],
+    coverImage: "/assets/CaseChatbot/01-welcome-voice.png",
+    coverImageWidth: 1440,
+    coverImageHeight: 900,
+    heroImage: "/assets/CaseChatbot/01-welcome-voice.png",
+    heroImageWidth: 1440,
+    heroImageHeight: 900,
     coverIcon: "MessageSquare",
-    role: "UI/UX Designer",
-    product: "AI Chatbot & Dashboard",
+    role: "UI/UX Designer · UX Logic · Animation · Vibe Coding",
+    product: "Cieden AI Assistant",
   },
   {
     slug: "realtor-in-pocket",
@@ -241,7 +248,6 @@ export const caseStudies: CaseStudy[] = [
 ];
 
 export const featuredCaseSlugs = [
-  "ai-meeting-assistant",
   "ai-chatbot-dashboard",
   "realtor-in-pocket",
 ] as const;

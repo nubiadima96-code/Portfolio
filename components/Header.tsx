@@ -43,6 +43,16 @@ const HeaderShell = ({ pathname }: { pathname: string }) => {
 
           <div className="flex items-center gap-3">
             <a
+              href="/About%20Page%20Materials/CV-UXUI-Product-Designer-Dmytro-Chyzh.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden md:inline-flex items-center gap-2 px-5 py-2 text-sm font-medium text-slate-100 bg-white/5 hover:bg-white/10 ring-1 ring-white/10 hover:ring-white/20 rounded-full transition"
+              aria-label="View resume PDF"
+            >
+              Resume
+              <ArrowRight className="w-4 h-4" aria-hidden />
+            </a>
+            <a
               href="https://www.linkedin.com/in/dima-chyzh-0360aa24a/"
               target="_blank"
               rel="noopener noreferrer"
@@ -78,6 +88,17 @@ const HeaderShell = ({ pathname }: { pathname: string }) => {
             >
               Case Studies
             </Link>
+            <a
+              href="/About%20Page%20Materials/CV-UXUI-Product-Designer-Dmytro-Chyzh.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-5 py-3 text-sm font-medium text-slate-100 bg-white/5 ring-1 ring-white/10 rounded-full"
+              aria-label="View resume PDF"
+              onClick={() => setMenuOpen(false)}
+            >
+              Resume
+              <ArrowRight className="w-4 h-4" aria-hidden />
+            </a>
             <a
               href="https://www.linkedin.com/in/dima-chyzh-0360aa24a/"
               target="_blank"

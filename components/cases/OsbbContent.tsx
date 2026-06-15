@@ -1,5 +1,10 @@
 "use client";
 
+import {
+  CaseTextMediaSection,
+  caseChapterStackClassName,
+} from "./aiUxCaseLayout";
+
 const BooksShelfShot = ({ src, alt }: { src: string; alt: string }) => (
   <article className="rounded-2xl overflow-hidden ring-1 ring-white/10">
     <img src={src} alt={alt} className="w-full h-auto block" />
@@ -17,19 +22,9 @@ const BooksShelfSection = ({
   imageSrc: string;
   imageAlt: string;
 }) => (
-  <div className="space-y-6 md:space-y-8">
-    <article className="rounded-2xl bg-black/40 text-slate-200 p-8 md:p-12 ring-1 ring-white/10 backdrop-blur-xl">
-      <div className="grid md:grid-cols-12 gap-6 md:gap-8 items-start">
-        <h3 className="md:col-span-4 text-2xl md:text-3xl font-semibold leading-tight text-white">
-          {title}
-        </h3>
-        <p className="md:col-span-8 text-base md:text-lg leading-relaxed text-slate-300">
-          {description}
-        </p>
-      </div>
-    </article>
+  <CaseTextMediaSection title={title} description={description}>
     <BooksShelfShot src={imageSrc} alt={imageAlt} />
-  </div>
+  </CaseTextMediaSection>
 );
 
 export const OsbbContent = () => {
@@ -72,7 +67,7 @@ export const OsbbContent = () => {
         </div>
       </section>
 
-      <section className="w-full space-y-10 md:space-y-12">
+      <section className={caseChapterStackClassName}>
         <BooksShelfSection
           title="Home — discovery and weekly picks"
           description="The home screen sets the tone: search, profile, and navigation to Library, Audiobooks, and My shelf. A featured block highlights the top book of the week with a clear CTA, while “Book of the month” scrolls popular titles so users can start browsing in seconds."
@@ -102,8 +97,10 @@ export const OsbbContent = () => {
         />
       </section>
 
-      <section className="w-full rounded-2xl bg-black/40 ring-1 ring-white/10 p-8 md:p-10 backdrop-blur-xl">
-        <h3 className="text-lg font-semibold text-white tracking-tight mb-6">What the product covers</h3>
+      <section className="w-full space-y-6 pt-12 md:pt-16 lg:pt-20 border-t border-white/10">
+        <h3 className="text-xl md:text-2xl font-semibold text-white tracking-tight">
+          What the product covers
+        </h3>
         <ul className="grid sm:grid-cols-2 gap-3 text-sm text-slate-300">
           <li className="flex gap-2">
             <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-teal-400 shrink-0" />

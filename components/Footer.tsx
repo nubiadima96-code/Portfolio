@@ -23,6 +23,16 @@ export const Footer = () => {
           Instagram
           <ExternalLink className="w-3.5 h-3.5" />
         </a>
+        <a
+          href="/About%20Page%20Materials/CV-UXUI-Product-Designer-Dmytro-Chyzh.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-slate-300 hover:text-white transition text-sm"
+          aria-label="View CV PDF"
+        >
+          CV
+          <ExternalLink className="w-3.5 h-3.5" aria-hidden />
+        </a>
       </div>
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 text-sm text-slate-400">
         <div className="space-y-1">

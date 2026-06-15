@@ -24,7 +24,7 @@ export const FeaturedCases = () => {
         </p>
       </AnimatedSection>
 
-      <div className="grid items-stretch gap-x-8 gap-y-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-y-10">
+      <div className="grid items-stretch gap-x-8 gap-y-8 md:grid-cols-2 lg:gap-y-10">
         {featured.map((study, i) => (
           <CaseCard key={study.slug} study={study} index={i} />
         ))}

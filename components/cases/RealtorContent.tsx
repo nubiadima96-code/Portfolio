@@ -1,5 +1,11 @@
 "use client";
 
+import {
+  CaseTextBlock,
+  CaseTextMediaSection,
+  caseChapterStackClassName,
+} from "./aiUxCaseLayout";
+
 const HouseHubShot = ({ src, alt }: { src: string; alt: string }) => (
   <article className="rounded-2xl overflow-hidden ring-1 ring-white/10">
     <img src={src} alt={alt} className="w-full h-auto block" />
@@ -17,19 +23,9 @@ const HouseHubSection = ({
   imageSrc: string;
   imageAlt: string;
 }) => (
-  <div className="space-y-6 md:space-y-8">
-    <article className="rounded-2xl bg-black/40 text-slate-200 p-8 md:p-12 ring-1 ring-white/10 backdrop-blur-xl">
-      <div className="grid md:grid-cols-12 gap-6 md:gap-8 items-start">
-        <h3 className="md:col-span-4 text-2xl md:text-3xl font-semibold leading-tight text-white">
-          {title}
-        </h3>
-        <p className="md:col-span-8 text-base md:text-lg leading-relaxed text-slate-300">
-          {description}
-        </p>
-      </div>
-    </article>
+  <CaseTextMediaSection title={title} description={description}>
     <HouseHubShot src={imageSrc} alt={imageAlt} />
-  </div>
+  </CaseTextMediaSection>
 );
 
 const impactStats = [
@@ -88,10 +84,10 @@ export const RealtorContent = () => {
         </div>
       </section>
 
-      <section className="w-full space-y-10 md:space-y-12">
+      <section className={caseChapterStackClassName}>
         <HouseHubShot src="/assets/HouseHub/1.png" alt="HouseHub product overview" />
 
-        <div className="rounded-2xl bg-teal-400/5 ring-1 ring-teal-400/20 p-8 md:p-10">
+        <div className="rounded-2xl bg-teal-400/5 ring-1 ring-teal-400/20 p-8 md:p-10 space-y-8">
           <h3 className="text-lg font-semibold text-white mb-2">Impact & adoption</h3>
           <p className="text-slate-300 leading-relaxed mb-8 max-w-3xl">
             HouseHub is not a classroom mockup — it runs in real residential complexes and supports people every day. Adoption keeps climbing: more households connect, utility and payment activity grows, and building communication becomes easier to manage.
@@ -124,16 +120,10 @@ export const RealtorContent = () => {
           imageAlt="HouseHub dashboard screens"
         />
 
-        <article className="rounded-2xl bg-black/40 text-slate-200 p-8 md:p-12 ring-1 ring-white/10 backdrop-blur-xl">
-          <div className="grid md:grid-cols-12 gap-6 md:gap-8 items-start">
-            <h3 className="md:col-span-4 text-2xl md:text-3xl font-semibold leading-tight text-white">
-              Detailed analytics
-            </h3>
-            <p className="md:col-span-8 text-base md:text-lg leading-relaxed text-slate-300">
-              Statistics support day, week, and month views for electricity, gas, and water. Residents see trends early, understand spending, and spot unusual consumption before bills spike.
-            </p>
-          </div>
-        </article>
+        <CaseTextBlock
+          title="Detailed analytics"
+          description="Statistics support day, week, and month views for electricity, gas, and water. Residents see trends early, understand spending, and spot unusual consumption before bills spike."
+        />
 
         <HouseHubSection
           title="Services, indicators, and payments"
