@@ -6,6 +6,8 @@ import { motion } from "framer-motion";
 import { DynamicIcon } from "./DynamicIcon";
 
 export const CaseCard = ({ study, index }: { study: CaseStudy; index: number }) => {
+  const isDesktopFramed = study.slug === "ai-chatbot-dashboard";
+
   return (
     <motion.div
       className="h-full"
@@ -16,17 +18,39 @@ export const CaseCard = ({ study, index }: { study: CaseStudy; index: number }) 
     >
       <Link href={`/case-studies/${study.slug}`} className="block group h-full">
         <article className="flex h-full flex-col bg-slate-950/60 backdrop-blur-xl rounded-2xl border border-white/10 overflow-hidden hover:border-teal-400/40 hover:shadow-[0_20px_60px_rgba(45,212,191,0.2)] transition-all duration-300">
-          <div className="relative aspect-[16/10] shrink-0 overflow-hidden bg-black/40">
+          <div
+            className={`relative aspect-[16/10] shrink-0 overflow-hidden ${
+              isDesktopFramed
+                ? "flex items-center justify-center bg-gradient-to-b from-[#d8c9ff] via-[#b794f6] to-[#8b5cf6] p-5 sm:p-7"
+                : "bg-black/40"
+            }`}
+          >
             {study.coverImage ? (
-              <img
-                src={study.coverImage}
-                alt={study.title}
-                width={study.coverImageWidth}
-                height={study.coverImageHeight}
-                className="h-full w-full object-cover object-center block group-hover:scale-[1.02] transition-transform duration-500"
-                loading={index < 2 ? "eager" : "lazy"}
-                decoding="async"
-              />
+              isDesktopFramed ? (
+                <div className="relative h-full w-[90%] max-w-[560px] rounded-[14px] bg-[#050508] p-[7px] shadow-[0_24px_48px_rgba(0,0,0,0.35)] ring-2 ring-[#0a0a0c] transition-transform duration-500 group-hover:scale-[1.02]">
+                  <div className="h-full w-full overflow-hidden rounded-[10px] bg-[#0f0f14]">
+                    <img
+                      src={study.coverImage}
+                      alt={study.title}
+                      width={study.coverImageWidth}
+                      height={study.coverImageHeight}
+                      className="h-full w-full object-cover object-top block"
+                      loading={index < 2 ? "eager" : "lazy"}
+                      decoding="async"
+                    />
+                  </div>
+                </div>
+              ) : (
+                <img
+                  src={study.coverImage}
+                  alt={study.title}
+                  width={study.coverImageWidth}
+                  height={study.coverImageHeight}
+                  className="h-full w-full object-cover object-center block group-hover:scale-[1.02] transition-transform duration-500"
+                  loading={index < 2 ? "eager" : "lazy"}
+                  decoding="async"
+                />
+              )
             ) : (
               <div className="flex h-full w-full items-center justify-center">
                 <DynamicIcon name={study.coverIcon || "Box"} className="w-16 h-16 text-teal-400/40" />

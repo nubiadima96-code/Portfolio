@@ -108,7 +108,7 @@ export const caseStudies: CaseStudy[] = [
       { icon: "Sparkles", label: "AI sales assistant" },
       { icon: "Calculator", label: "Preliminary estimate" },
     ],
-    coverImage: "/assets/CaseChatbot/01-welcome-voice.png",
+    coverImage: "/assets/CaseChatbot/cover-main.png",
     coverImageWidth: 1440,
     coverImageHeight: 900,
     heroImage: "/assets/CaseChatbot/01-welcome-voice.png",
